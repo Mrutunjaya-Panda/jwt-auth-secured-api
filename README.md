@@ -37,6 +37,9 @@ This project enhances API security by replacing basic authentication with **toke
    - Grants / denies access  
 
 ---
+# Cookies:
+# How it works:
+The server sets a cookie (e.g., jwtToken) in the user's browser after login. On every subsequent request, the browser automatically sends this cookie back to the server.
 
 ## 🧩 JWT Structure
 
@@ -69,7 +72,7 @@ signature
 
 ---
 # Differences
-```
+
 # Method	      Automatic-Sending	 CSRF Risk	XSS Risk	   Best For
 Cookie	      Yes	             Yes*	      No**	      Browser-based apps
 Authorization	No	                No	      Yes***	   APIs, mobile, SPA apps
