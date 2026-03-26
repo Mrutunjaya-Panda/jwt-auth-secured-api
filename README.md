@@ -68,6 +68,15 @@ signature
 - Allow or block request  
 
 ---
+# Differences
+```
+# Method	      Automatic-Sending	 CSRF Risk	XSS Risk	   Best For
+Cookie	      Yes	             Yes*	      No**	      Browser-based apps
+Authorization	No	                No	      Yes***	   APIs, mobile, SPA apps
+
+Cookies are convenient for browser-based authentication and are used here to match the test requirements.
+Authorization header is more common for APIs and mobile apps
+```
 
 ## ⚙️ Tech Stack
 
