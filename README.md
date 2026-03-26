@@ -73,7 +73,7 @@ signature
 ---
 # Differences
 ```
-# Method	      Automatic-Sending	 CSRF Risk	XSS Risk	   Best For
+Method	      Automatic-Sending	 CSRF Risk	XSS Risk	   Best For
 Cookie	      Yes	             Yes*	      No**	      Browser-based apps
 Authorization	No	                No	      Yes***	   APIs, mobile, SPA apps
 
